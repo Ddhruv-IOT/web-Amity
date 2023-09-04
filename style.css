@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 1px;
+  font-family: arial;
+  min-height: 75rem;
+  font-size: 1.5rem !important;
+}
+
+.font-black {
+  color: black;
+}
+.menu-fixed-position {
+  padding-top: 4.8rem;
+}
+.menu-fixed-position-top {
+  padding-top: 4rem;
+}
+
+.logo {
+  height: 90px;
+  color: black;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #6699ff;
+}
+
+.mainheader {
+  background: -webkit-linear-gradient(#6699ff 0%, #ffffff 85%) repeat scroll 0 0
+    transparent;
+  background: -moz-linear-gradient(center top, #6699ff 0%, #ffffff 85%) repeat
+    scroll 0 0 transparent;
+  background: -o-linear-gradient(#6699ff 0%, #ffffff 85%) repeat scroll 0 0
+    transparent;
+  background: -ms-linear-gradient(#6699ff 0%, #ffffff 85%) repeat scroll 0 0
+    transparent;
+  background: linear-gradient(center top, #6699ff 0%, #ffffff 85%) repeat scroll
+    0 0 transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  background-repeat: repeat-x;
+}
+
+.hyperlink {
+  text-decoration: none;
+  color: #03c;
+}
+
+nav {
+  padding: 0 !important;
+  background-color: #3f48cc !important;
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+}
+
+nav ul li.nav-item {
+  text-align: center;
+  width: 8.6%;
+  background-color: blue;
+  background: -webkit-linear-gradient(lightblue 0%, #2b2bff 100%) repeat scroll
+    0 0 transparent;
+  margin: 0px 1px 0px 1px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+nav ul li.bigsizemenu {
+  width: 14% !important;
+}
+
+nav ul li.nav-item a.nav-link {
+  color: white !important;
+}
+
+nav ul li.nav-item a.nav-link:hover {
+  background-color: #3f48cc !important;
+}
+
+nav ul li.nav-item .dropdown-menu {
+  text-align: left;
+  background-color: blue;
+  background: -webkit-linear-gradient(lightblue 0%, #2b2bff 100%) repeat scroll
+    0 0 transparent;
+  margin: 0px 1px 0px 1px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+nav ul li.nav-item .dropdown-menu a {
+  color: white !important;
+}
+
+nav ul li.nav-item .dropdown-menu a:hover {
+  background-color: #3f48cc !important;
+}
+
+.mrcpanelcards {
+  border: solid 1px blue;
+  background-color: white;
+}
+
+.mrcpanelcards .card-header {
+  background-color: blue;
+  background: -webkit-linear-gradient(lightblue 0%, #2b2bff 100%) repeat scroll
+    0 0 transparent;
+  color: white;
+}
+
+#tblhomepageimages {
+  margin: -10px 0px 0px 0px;
+  width: 100%;
+  min-width: 440px;
+}
+
+#tblhomepageimages tr td {
+  overflow: hidden;
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+  border-bottom: solid #4682b4 1px;
+}
+
+.carousel-indicators {
+  margin-bottom: 25px;
+}
+
+.carousel-caption {
+  margin-bottom: -45px;
+}
+
+.carousel-caption > h4 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.mainfooter {
+  background: -webkit-linear-gradient(#ffffff 0%, #6699ff 75%) repeat scroll 0 0
+    transparent;
+  background: -moz-linear-gradient(center top, #ffffff 0%, #6699ff 75%) repeat
+    scroll 0 0 transparent;
+  background: -o-linear-gradient(#ffffff 0%, #6699ff 75%) repeat scroll 0 0
+    transparent;
+  background: -ms-linear-gradient(#ffffff 0%, #6699ff 75%) repeat scroll 0 0
+    transparent;
+  background: linear-gradient(center top, #ffffff 0%, #6699ff 75%) repeat scroll
+    0 0 transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  background-repeat: repeat-x;
+  bottom: 0px;
+  padding: 0;
+}
+
+.bluetheme {
+  width: 15px !important;
+  height: 15px;
+  background: #3f48cc !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 0 2px 0px !important;
+}
+.maroontheme {
+  width: 15px !important;
+  height: 15px;
+  background: #662b41 !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 0 2px 0px !important;
+}
+.peachtheme {
+  width: 15px !important;
+  height: 15px;
+  background: #ffb693 !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 0 2px 0px !important;
+}
+.metaltheme {
+  width: 15px !important;
+  height: 15px;
+  background: #70add2 !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 0 2px 0px !important;
+}
+
+.contact {
+  font-size: 13px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.jumbotron-homebody {
+  height: 380px;
+}
+.jumbotron {
+  background-color: white !important;
+  border: solid 1px lightgray !important;
+  min-height: 370px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 8px 16px -6px black;
+}
+
+.breadcrumb-item a {
+  color: white !important;
+}
+.breadcrumb-item.active {
+  color: black !important;
+}
+.breadcrumb-item::before {
+  color: tomato !important;
+}
+
+ol.breadcrumb {
+  background-color: #708090 !important;
+  border-radius: 0px;
+}
